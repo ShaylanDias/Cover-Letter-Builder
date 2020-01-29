@@ -1,7 +1,7 @@
 # Cover-Letter-Builder
 Script for using a command line tool to fill in a generic cover letter with information relevant to each position when mass applying to jobs
 
-In your template use the following tags:
+## In your template use the following tags:
 
 {date} - For today's date
 
@@ -11,10 +11,12 @@ In your template use the following tags:
 
 {location} - The location of the position
 
-Commandline Arguments:
+
+
+## Commandline Arguments:
 -c \[Company\]
 -r \[Role\]
 -l \[Location\]
 
-Example Script Call:
+### Example Script Call:
 python3 parser.py -c Test.inc -r Developer -l Sunnyvale, CA
