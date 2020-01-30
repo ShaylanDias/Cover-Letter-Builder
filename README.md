@@ -1,6 +1,10 @@
 # Cover-Letter-Builder
 Script for using a command line tool to fill in a generic cover letter with information relevant to each position when mass applying to jobs
 
+## Requirements
+Python3 and python-docx
+Use `pip3 install python-docx'
+
 ## In your template use the following tags:
 
 {date} - For today's date
