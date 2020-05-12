@@ -3,7 +3,7 @@ Script for using a command line tool to fill in a generic cover letter with info
 
 ## Requirements
 Python3 and python-docx
-Use `pip3 install python-docx'
+Use `pip3 install python-docx`
 
 ## In your template use the following tags:
 
@@ -23,4 +23,4 @@ Use `pip3 install python-docx'
 -l \[Location\]
 
 ### Example Script Call:
-python3 parser.py -c Test.inc -r Developer -l Sunnyvale, CA
+`python3 parser.py -c Test.inc -r Developer -l Palo Alto, CA`
